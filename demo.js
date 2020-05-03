@@ -37,10 +37,9 @@ function likeCallback(e) {
 // work, the elements we identify in STEP 1 need to be told to run that update
 // code when an "event" is fired. That's Pillar 2, event handling. Uncomment
 // this code.
-
-//for (let glyph of articleHearts) {
-  //glyph.addEventListener("click", likeCallback);
-//}
+for (let glyph of articleHearts) {
+glyph.addEventListener("click", likeCallback);
+}
 
 // STEP 4:
 
